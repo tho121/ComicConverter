@@ -1,5 +1,5 @@
 """
-ComicConverter3.0 setup
+ComicConverter setup
 """
 import json
 import os
@@ -13,7 +13,7 @@ import setuptools
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 # The name of the project
-name="ComicConverter3.0"
+name="ComicConverter"
 
 # Get our version
 with open(os.path.join(HERE, 'package.json')) as f:
@@ -32,7 +32,7 @@ package_data_spec = {
     ]
 }
 
-labext_name = "ComicConverter3.0"
+labext_name = "ComicConverter"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, lab_path, "**"),
@@ -61,7 +61,7 @@ with open("README.md", "r") as fh:
 setup_args = dict(
     name=name,
     version=version,
-    url="https://github.com/tho121/ComicConverter3.0",
+    url="https://github.com/tho121/ComicConverter",
     author="tho121",
     description="Daye Kang's implementation for converting JupyterLab notebooks into a data comic for CHI 2021",
     long_description= long_description,

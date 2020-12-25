@@ -1,13 +1,13 @@
 include LICENSE
 include README.md
 include pyproject.toml
-include jupyter-config/ComicConverter3.0.json
+include jupyter-config/ComicConverter.json
 
 include package.json
 include install.json
 include ts*.json
 
-graft ComicConverter3.0/labextension
+graft ComicConverter/labextension
 
 # Javascript files
 graft src

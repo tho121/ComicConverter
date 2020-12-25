@@ -1,6 +1,6 @@
-# ComicConverter3.0
+# ComicConverter
 
-![Github Actions Status](https://github.com/tho121/ComicConverter3.0/workflows/Build/badge.svg)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tho121/ComicConverter3.0/master?urlpath=lab)
+![Github Actions Status](https://github.com/tho121/ComicConverter/workflows/Build/badge.svg)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tho121/ComicConverter/master?urlpath=lab)
 
 Daye Kang's implementation for converting JupyterLab notebooks into a data comic for CHI 2021
 
@@ -13,11 +13,11 @@ Daye Kang's implementation for converting JupyterLab notebooks into a data comic
 ## Install
 
 ```bash
-pip install ComicConverter3.0
+pip install ComicConverter
 ```
 
 ### Uninstall
 
 ```bash
-pip uninstall ComicConverter3.0
+pip uninstall ComicConverter
 ```

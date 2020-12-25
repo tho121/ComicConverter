@@ -123,7 +123,7 @@ class MouseActions {
 
 
 const extension: JupyterFrontEndPlugin<void> = {
-    id: 'ComicConverter3.0',
+    id: 'ComicConverter',
     optional: [IMainMenu, INotebookTools, INotebookTracker],
     autoStart: true,
     activate: (app: JupyterFrontEnd,
