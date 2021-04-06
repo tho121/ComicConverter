@@ -4,7 +4,7 @@
 
 Daye Kang's implementation for converting JupyterLab notebooks into a data comic for CHI 2021
 
-
+Visit toon_note for the latest implementation (link coming soon!)
 
 ## Requirements
 
